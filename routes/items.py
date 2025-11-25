@@ -8,18 +8,41 @@ from auth.auth_handler import get_current_user
 
 router = APIRouter()
 
-PKL_DATA_PATH = os.path.join("ml_model", "diseases.pkl")
-CSV_DATA_PATH = os.path.join("ml_model", "diseases.csv")
+# Paths
+ML_MODEL_DIR = "ml_model"
+PKL_DATA_PATH = os.path.join(ML_MODEL_DIR, "diseases.pkl")
+CSV_DATA_PATH = os.path.join(ML_MODEL_DIR, "diseases.csv")
+MODEL_FILE = os.path.join(ML_MODEL_DIR, "disease_model.pkl")
+ENCODER_FILE = os.path.join(ML_MODEL_DIR, "label_encoder.pkl")
 
+# Cache
 _diseases_cache = None
 
+# ===== Function to train model if .pkl files are missing =====
+def ensure_model_files():
+    if all(os.path.exists(p) for p in [PKL_DATA_PATH, MODEL_FILE, ENCODER_FILE]):
+        return  # All files exist, no need to train
+
+    print("PKL files missing. Training model now...")
+    import ml_model.train_model as train_model  # Ensure Train_model.py is importable
+    # Run training
+    train_model  # Train_model.py already saves all necessary .pkl files
+    print("Model training complete.")
+
+# ===== Load diseases data =====
 def load_diseases_data():
     global _diseases_cache
+
+    # Ensure model files exist
+    ensure_model_files()
+
     if _diseases_cache is not None:
         return _diseases_cache
+
     if os.path.exists(PKL_DATA_PATH):
         try:
             _diseases_cache = joblib.load(PKL_DATA_PATH)
+            # Normalize
             normalized = []
             for rec in _diseases_cache:
                 disease = rec.get("disease") if isinstance(rec, dict) else None
@@ -33,6 +56,8 @@ def load_diseases_data():
             return _diseases_cache
         except Exception as e:
             raise RuntimeError(f"Failed to load PKL disease data: {e}")
+
+    # Fallback to CSV
     if os.path.exists(CSV_DATA_PATH):
         try:
             df = pd.read_csv(CSV_DATA_PATH)
@@ -53,29 +78,36 @@ def load_diseases_data():
             return _diseases_cache
         except Exception as e:
             raise RuntimeError(f"Failed to load CSV disease data: {e}")
+
     raise RuntimeError(
         f"No disease data found. Expected '{PKL_DATA_PATH}' or '{CSV_DATA_PATH}' in ml_model folder."
     )
 
+# ===== Predict Disease Endpoint =====
 @router.post("/predict_disease")
 def predict_disease(input: dict, user=Depends(get_current_user)):
     symptoms = input.get("symptoms") if isinstance(input, dict) else None
     if not isinstance(symptoms, (list, tuple)):
         raise HTTPException(status_code=400, detail="Invalid payload. Expected {'symptoms': [..]}")
+
     symptoms_input = [s.lower().strip() for s in symptoms if s.strip() != ""]
     if len(symptoms_input) < 4 or len(symptoms_input) > 6:
         raise HTTPException(status_code=400, detail="Please provide 4 to 6 symptoms")
+
     try:
         diseases = load_diseases_data()
     except RuntimeError as e:
         raise HTTPException(status_code=500, detail=str(e))
+
     all_known_symptoms = set()
     for rec in diseases:
         for s in rec.get("symptoms", []):
             all_known_symptoms.add(s.lower().strip())
+
     valid_symptoms = []
     invalid_symptoms = []
     suggestions = {}
+
     for s in symptoms_input:
         if s in all_known_symptoms:
             valid_symptoms.append(s)
@@ -84,12 +116,14 @@ def predict_disease(input: dict, user=Depends(get_current_user)):
             best_match = process.extractOne(s, list(all_known_symptoms), score_cutoff=70)
             if best_match:
                 suggestions[s] = best_match[0]
+
     if len(valid_symptoms) < 4:
         detail_msg = f"Too few valid symptoms. Invalid symptoms: {', '.join(invalid_symptoms)}"
         if suggestions:
             suggestion_msg = "; ".join([f"{k} → {v}" for k, v in suggestions.items()])
             detail_msg += f". Did you mean: {suggestion_msg}?"
         raise HTTPException(status_code=400, detail=detail_msg)
+
     matched_diseases = []
     for rec in diseases:
         item_symptoms = [s.lower() for s in rec.get("symptoms", [])]
@@ -102,14 +136,17 @@ def predict_disease(input: dict, user=Depends(get_current_user)):
                 "disease": rec.get("disease"),
                 "match_percent": percent
             })
+
     if not matched_diseases:
         detail_msg = f"No diseases matched your symptoms. Invalid symptoms: {', '.join(invalid_symptoms)}"
         if suggestions:
             suggestion_msg = "; ".join([f"{k} → {v}" for k, v in suggestions.items()])
             detail_msg += f". Did you mean: {suggestion_msg}?"
         raise HTTPException(status_code=404, detail=detail_msg)
+
     random.shuffle(matched_diseases)
     matched_diseases = sorted(matched_diseases, key=lambda x: x["match_percent"], reverse=True)[:5]
+
     return {
         "diseases": matched_diseases,
         "valid_symptoms": valid_symptoms,
