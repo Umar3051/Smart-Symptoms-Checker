@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Symptoms Checker</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="icon" href="/static/favicon.webp" type="image/x-icon">
+    <script src="/static/app.js" defer></script>
+    <style>
+        /* Extra styles for invalid symptoms display */
+        #invalid-symptoms {
+            color: red;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        #valid-symptoms {
+            color: #a0ffa0;
+            margin-top: 5px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Symptoms Checker</h1>
+        <input type="text" id="symptoms-input" placeholder="Enter 4-6 symptoms separated by commas">
+        <div id="invalid-symptoms"></div>
+        <div id="valid-symptoms"></div>
+        <button id="search-btn">Search Diseases</button>
+        <p id="auth-links">
+            <a href="/login" style="color:#ff6a00;">Login</a> or 
+            <a href="/register" style="color:#ff6a00;">Register</a>
+        </p>
+        <div id="results"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+/* ===== GENERAL STYLES ===== */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6a00;
+}
+
+.container {
+    width: 400px;
+    max-width: 90%;
+    margin: 60px auto;
+    background: rgba(0,0,0,0.6);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    animation: fadeInDown 1s;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6a00;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #ff9a00;
+    transform: scale(1.05);
+}
+
+/* ===== RESULTS ===== */
+#results div {
+    background: rgba(255,255,255,0.1);
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 8px;
+    animation: fadeIn 1s;
+}
+
+#invalid-symptoms {
+    color: #ff5555;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#valid-symptoms {
+    color: #a0ffa0;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* ===== AVATAR & LOGOUT ===== */
+#avatar-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #ff6a00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#logout-btn {
+    display: none;
+    position: fixed;
+    top: 55px;
+    right: 20px;
+    z-index: 1000;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff5555;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+}
+
+#logout-btn:hover {
+    background-color: #ff2222;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* ===== PROGRESS CIRCLE HORIZONTAL LAYOUT ===== */
+.disease-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-circle {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.progress-circle svg {
+    width: 60px;
+    height: 60px;
+    transform: rotate(-90deg);
+}
+
+.progress-circle circle {
+    fill: none;
+    stroke-linecap: round;
+}
+
+/* Background circle */
+.progress-circle .bg {
+    stroke: rgba(255, 255, 255, 0.15);
+    stroke-width: 8;
+}
+
+/* Foreground animated circle */
+.progress-circle .fg {
+    stroke-width: 8;
+    stroke-dasharray: 0, 226;
+    transition: stroke-dasharray 1s ease, stroke 1s ease;
+}
+
+/* Percentage text */
+.progress-circle text.percentage {
+    font-size: 12px;
+    fill: #fff;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    transform: rotate(90deg);
+    font-weight: bold;
+}
+
+/* Color ranges */
+.progress-circle.green .fg { stroke: #4CAF50; }
+.progress-circle.orange .fg { stroke: #FF9800; }
+.progress-circle.red .fg { stroke: #F44336; }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="icon" href="/static/favicon.webp" type="image/x-icon">
+    <script src="/static/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <input type="text" id="firstname" placeholder="First Name">
+        <input type="text" id="lastname" placeholder="Last Name">
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="register-btn">Register</button>
+        <p>Already have an account? <a href="/login">Login</a></p>
+        <div id="register-msg"></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const currentUser = localStorage.getItem('username');
+            if (currentUser) {
+                localStorage.clear();
+            }
+        });
+    </script>
+</body>
+</html>

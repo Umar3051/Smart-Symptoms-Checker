@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+psycopg2-binary
+SQLAlchemy
+passlib[bcrypt]
+python-jose
+python-dotenv
+pydantic
+pydantic[email]
+pydantic_settings
+scikit-learn
+pandas
+joblib
+rapidfuzz
+jinja2

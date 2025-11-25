@@ -1,0 +1,301 @@
+disease,symptom_1,symptom_2,symptom_3,symptom_4,symptom_5,symptom_6,symptom_7,symptom_8,symptom_9,symptom_10,symptom_11,symptom_12
+Flu,Fever,Cough,Sore throat,Runny nose,Headache,Fatigue,Body ache,Chills,Loss of appetite,Nausea,Sneezing,Watery eyes
+Common Cold,Sneezing,Runny nose,Cough,Sore throat,Headache,Fatigue,Low fever,Body ache,Watery eyes,Nasal congestion,Chills,Loss of appetite
+Malaria,Fever,Chills,Sweating,Headache,Nausea,Fatigue,Body ache,Muscle pain,Loss of appetite,Diarrhea,Vomiting,Anemia
+Diabetes,Increased thirst,Frequent urination,Fatigue,Blurred vision,Weight loss,Nausea,Slow healing,Frequent infections,Numbness in hands/feet,Irritability,Frequent hunger,Yeast infections
+Hypertension,Headache,Dizziness,Nosebleeds,Blurred vision,Chest pain,Fatigue,Shortness of breath,Irregular heartbeat,Nausea,Anxiety,Ringing in ears,Flushing
+Asthma,Shortness of breath,Wheezing,Cough,Chest tightness,Fatigue,Anxiety,Difficulty sleeping,Rapid heartbeat,Runny nose,Sore throat,Allergy symptoms,Chest pain
+Pneumonia,Fever,Cough,Chills,Shortness of breath,Chest pain,Fatigue,Nausea,Vomiting,Muscle pain,Loss of appetite,Headache,Sweating
+Chickenpox,Fever,Rash,Itching,Fatigue,Headache,Loss of appetite,Muscle pain,Chills,Nausea,Sore throat,Blisters,Swollen lymph nodes
+Measles,Fever,Rash,Cough,Runny nose,Red eyes,Sore throat,Fatigue,Body ache,Loss of appetite,Diarrhea,Conjunctivitis,Swollen lymph nodes
+Hepatitis A,Fever,Fatigue,Nausea,Loss of appetite,Abdominal pain,Dark urine,Jaundice,Joint pain,Diarrhea,Muscle pain,Itching,Headache
+Hepatitis B,Fever,Fatigue,Nausea,Loss of appetite,Abdominal pain,Dark urine,Jaundice,Joint pain,Muscle pain,Itching,Headache,Swollen liver
+Hepatitis C,Fatigue,Nausea,Loss of appetite,Abdominal pain,Dark urine,Jaundice,Joint pain,Muscle pain,Itching,Headache,Depression,Weakness
+COVID-19,Fever,Cough,Shortness of breath,Fatigue,Loss of taste,Loss of smell,Sore throat,Headache,Muscle pain,Chills,Nausea,Diarrhea
+Bronchitis,Cough,Fatigue,Shortness of breath,Fever,Chest discomfort,Headache,Body ache,Sore throat,Runny nose,Muscle pain,Chills,Loss of appetite
+Sinusitis,Headache,Facial pain,Runny nose,Postnasal drip,Cough,Fever,Fatigue,Pressure around eyes,Nasal congestion,Sore throat,Bad breath,Dizziness
+Allergy,Itchy eyes,Sneezing,Runny nose,Cough,Hives,Swelling,Fatigue,Headache,Watery eyes,Skin rash,Shortness of breath,Anxiety
+Gastroenteritis,Nausea,Vomiting,Diarrhea,Abdominal cramps,Fever,Headache,Fatigue,Loss of appetite,Dehydration,Chills,Muscle pain,Weakness
+Urinary Tract Infection,Frequent urination,Burning sensation,Cloudy urine,Strong odor,Fever,Lower abdominal pain,Back pain,Nausea,Fatigue,Urgency,Chills,Confusion
+Kidney Stones,Severe pain,Abdominal pain,Back pain,Nausea,Vomiting,Bloody urine,Fever,Frequent urination,Urgency,Fatigue,Chills,Loss of appetite
+Osteoarthritis,Joint pain,Stiffness,Swelling,Decreased range of motion,Fatigue,Muscle weakness,Cracking sounds,Deformity,Redness,Warmth,Pain at night,Limping
+Rheumatoid Arthritis,Joint pain,Swelling,Stiffness,Fatigue,Weakness,Loss of appetite,Fever,Redness,Warmth,Muscle pain,Limited mobility,Joint deformity
+Anemia,Fatigue,Weakness,Pale skin,Shortness of breath,Dizziness,Headache,Cold hands/feet,Chest pain,Irregular heartbeat,Numbness in hands/feet,Lightheadedness,Cold intolerance
+Iron Deficiency Anemia,Fatigue,Weakness,Pale skin,Shortness of breath,Dizziness,Headache,Brittle nails,Craving non-food items,Cold hands/feet,Chest pain,Irregular heartbeat,Numbness in hands/feet
+Vitamin D Deficiency,Fatigue,Depression,Bone pain,Muscle weakness,Hair loss,Slow wound healing,Headache,Back pain,Joint pain,Impaired immunity,Anxiety,Loss of appetite
+Scurvy,Fatigue,Bleeding gums,Swollen joints,Muscle pain,Joint pain,Loose teeth,Slow healing,Hair loss,Pale skin,Anemia,Fever,Weakness
+Goiter,Swelling in neck,Fatigue,Weight change,Hair loss,Hoarseness,Difficulty swallowing,Bulging eyes,Heat/cold intolerance,Weakness,Headache,Anxiety,Irritability
+Hyperthyroidism,Weight loss,Increased appetite,Fatigue,Heat intolerance,Anxiety,Tremors,Palpitations,Insomnia,Sweating,Diarrhea,Muscle weakness,Hair thinning
+Hypothyroidism,Fatigue,Weight gain,Cold intolerance,Constipation,Depression,Dry skin,Brittle nails,Hair loss,Swelling,Hoarseness,Slow heart rate,Memory problems
+Depression,Fatigue,Sadness,Loss of interest,Insomnia,Overeating,Undereating,Anxiety,Guilt,Low self-esteem,Difficulty concentrating,Agitation,Suicidal thoughts
+Anxiety,Fatigue,Restlessness,Palpitations,Sweating,Trembling,Shortness of breath,Insomnia,Nausea,Dizziness,Muscle tension,Irritability,Headache
+Insomnia,Difficulty falling asleep,Frequent waking,Earliest waking,Fatigue,Irritability,Daytime sleepiness,Headache,Anxiety,Depression,Concentration problems,Muscle pain,Heart palpitations
+Obesity,Weight gain,Fatigue,Shortness of breath,Back pain,Joint pain,High blood pressure,High cholesterol,Sleep apnea,Insulin resistance,Low self-esteem,Depression,Low stamina
+Heart Attack,Chest pain,Shortness of breath,Fatigue,Nausea,Sweating,Anxiety,Irregular heartbeat,Dizziness,Lightheadedness,Palpitations,Back pain,Arm pain
+Stroke,Weakness on one side,Fatigue,Headache,Dizziness,Confusion,Vision problems,Loss of balance,Speech difficulty,Numbness,Seizures,Facial droop,Memory loss
+Fibromyalgia,Muscle pain,Fatigue,Sleep disturbances,Headache,Depression,Anxiety,Stiffness,Numbness,Tingling,Memory problems,Concentration problems,Irritability
+COPD,Shortness of breath,Cough,Wheezing,Fatigue,Chest tightness,Frequent infections,Weight loss,Sleep disturbances,Anxiety,Palpitations,Swelling,Blue lips
+Celiac Disease,Diarrhea,Bloating,Gas,Abdominal pain,Fatigue,Weight loss,Anemia,Joint pain,Depression,Itchy skin,Nausea,Vomiting
+Crohn's Disease,Abdominal pain,Diarrhea,Weight loss,Fatigue,Fever,Bloody stool,Mouth sores,Reduced appetite,Nausea,Joint pain,Delayed growth,Eye inflammation
+Ulcerative Colitis,Abdominal pain,Diarrhea,Bloody stool,Fatigue,Weight loss,Loss of appetite,Fever,Rectal bleeding,Tenesmus,Joint pain,Skin rashes,Eye irritation
+Parkinson's Disease,Tremor,Bradykinesia,Rigidity,Postural instability,Fatigue,Depression,Speech changes,Swallowing difficulty,Loss of balance,Memory problems,Constipation,Sleep disturbances
+Alzheimer's Disease,Memory loss,Confusion,Disorientation,Difficulty speaking,Poor judgment,Personality changes,Fatigue,Loss of appetite,Anxiety,Depression,Hallucinations,Sleep disturbances
+Epilepsy,Seizures,Loss of consciousness,Confusion,Staring spells,Muscle spasms,Tongue biting,Fatigue,Headache,Memory problems,Anxiety,Depression,Injury during seizure
+Multiple Sclerosis,Weakness,Numbness,Tingling,Fatigue,Balance problems,Spasticity,Vision problems,Pain,Cognitive impairment,Depression,Urinary issues,Muscle spasms
+Lupus,Fatigue,Joint pain,Rash,Fever,Hair loss,Photosensitivity,Raynaud's phenomenon,Mouth sores,Chest pain,Kidney issues,Anemia,Headache
+Rheumatic Fever,Fever,Joint pain,Redness,Swelling,Heart murmur,Fatigue,Chest pain,Shortness of breath,Rash,Nodules,Stomach pain,Weakness
+Polio,Fever,Fatigue,Headache,Stiff neck,Muscle pain,Muscle weakness,Paralysis,Nausea,Vomiting,Loss of reflexes,Difficulty breathing,Deformities
+Diphtheria,Fever,Sore throat,Swollen glands,Weakness,Difficulty swallowing,Hoarseness,Cough,Nasal discharge,Muscle aches,Breathing difficulty,Heart problems,Nerve damage
+Tetanus,Muscle stiffness,Jaw cramp,Muscle spasms,Fever,Sweating,High blood pressure,Rapid heartbeat,Headache,Irritability,Difficulty swallowing,Seizures,Paralysis
+Shingles,Fever,Rash,Itching,Blisters,Headache,Fatigue,Muscle pain,Chills,Nausea,Sore throat,Loss of appetite,Sensitivity to light
+Mumps,Fever,Swollen salivary glands,Headache,Muscle pain,Fatigue,Loss of appetite,Swollen cheeks,Pain while chewing,Joint pain,Chills,Nausea,Sore throat
+Rubella,Fever,Rash,Headache,Swollen lymph nodes,Fatigue,Joint pain,Runny nose,Red eyes,Sore throat,Loss of appetite,Chills,Muscle pain
+Whooping Cough,Cough,Fever,Runny nose,Vomiting,Shortness of breath,Fatigue,Apnea,Red eyes,Loss of appetite,Chills,Muscle pain,Headache
+Polymyalgia Rheumatica,Fatigue,Muscle pain,Stiffness,Joint pain,Fever,Weight loss,Headache,Loss of appetite,Weakness,Chills,Shoulder pain,Hip pain
+Guillain-Barre Syndrome,Weakness,Numbness,Tingling,Fatigue,Loss of reflexes,Pain,Difficulty walking,Shortness of breath,Heart rate changes,Swallowing difficulty,Muscle spasms,Paralysis
+Bell's Palsy,Facial droop,Drooling,Weakness,Fatigue,Headache,Pain behind ear,Altered taste,Sensitivity to sound,Eye irritation,Difficulty closing eye,Speech difficulty,Numbness
+Migraine with Aura,Headache,Nausea,Vomiting,Light sensitivity,Sound sensitivity,Visual disturbances,Fatigue,Dizziness,Irritability,Neck pain,Blurred vision,Anxiety
+Tension Headache,Headache,Scalp tenderness,Neck pain,Shoulder pain,Fatigue,Anxiety,Insomnia,Stress,Sensitivity to light,Sensitivity to sound,Dizziness,Irritability
+Cluster Headache,Severe headache,Red eyes,Nasal congestion,Runny nose,Sweating,Restlessness,Facial swelling,Ptosis,Photophobia,Tearing,Fatigue,Anxiety
+Sinus Infection,Facial pain,Headache,Runny nose,Fever,Fatigue,Nasal congestion,Postnasal drip,Cough,Sore throat,Bad breath,Pressure around eyes,Chills
+Ear Infection,Ear pain,Fever,Hearing loss,Fluid drainage,Irritability,Nausea,Vomiting,Fatigue,Loss of appetite,Redness,Dizziness,Headache
+Tonsillitis,Sore throat,Fever,Difficulty swallowing,Headache,Fatigue,Swollen tonsils,Redness,White patches,Loss of appetite,Nausea,Muscle pain,Chills
+Strep Throat,Sore throat,Fever,Red tonsils,White patches,Headache,Nausea,Vomiting,Fatigue,Swollen lymph nodes,Loss of appetite,Chills,Body ache
+Scarlet Fever,Fever,Rash,Sore throat,Red tongue,Headache,Nausea,Chills,Fatigue,Muscle pain,Swollen glands,Loss of appetite,Body ache
+Lyme Disease,Fever,Headache,Fatigue,Rash,Joint pain,Muscle pain,Swelling,Neurological symptoms,Heart palpitations,Loss of appetite,Chills,Neck stiffness
+Rocky Mountain Spotted Fever,Fever,Rash,Headache,Nausea,Muscle pain,Joint pain,Chills,Fatigue,Loss of appetite,Red eyes,Swelling,Confusion
+Dengue Fever,Fever,Headache,Muscle pain,Joint pain,Rash,Nausea,Vomiting,Chills,Fatigue,Loss of appetite,Bleeding gums,Red eyes
+Yellow Fever,Fever,Headache,Muscle pain,Joint pain,Nausea,Vomiting,Chills,Fatigue,Jaundice,Loss of appetite,Bleeding,Weakness
+Zika Virus,Fever,Rash,Joint pain,Conjunctivitis,Headache,Muscle pain,Fatigue,Loss of appetite,Nausea,Chills,Swelling,Red eyes
+Ebola,Fever,Headache,Muscle pain,Weakness,Vomiting,Diarrhea,Abdominal pain,Loss of appetite,Chills,Internal bleeding,Rash,Fatigue
+Marburg Virus,Fever,Headache,Muscle pain,Weakness,Vomiting,Diarrhea,Loss of appetite,Abdominal pain,Chills,Rash,Internal bleeding,Fatigue
+Lassa Fever,Fever,Weakness,Headache,Muscle pain,Nausea,Vomiting,Diarrhea,Abdominal pain,Chest pain,Cough,Fatigue,Hearing loss
+Hantavirus,Fever,Chills,Muscle aches,Fatigue,Headache,Nausea,Vomiting,Diarrhea,Abdominal pain,Shortness of breath,Cough,Loss of appetite
+Influenza B,Fever,Cough,Headache,Fatigue,Sore throat,Body ache,Chills,Runny nose,Loss of appetite,Nausea,Muscle pain,Weakness
+Rhinovirus Infection,Sneezing,Runny nose,Cough,Sore throat,Fatigue,Headache,Watery eyes,Chills,Loss of appetite,Muscle pain,Nausea,Body ache
+Adenovirus Infection,Fever,Sore throat,Cough,Conjunctivitis,Runny nose,Fatigue,Body ache,Headache,Loss of appetite,Nausea,Muscle pain,Chills
+Enterovirus Infection,Fever,Rash,Nausea,Diarrhea,Headache,Fatigue,Muscle pain,Joint pain,Loss of appetite,Chills,Sore throat,Vomiting
+Measles Complication Pneumonia,Fever,Cough,Shortness of breath,Chills,Headache,Fatigue,Loss of appetite,Nausea,Muscle pain,Sore throat,Chest pain,Body ache
+Pertussis (Whooping Cough),Cough,Fever,Runny nose,Vomiting,Shortness of breath,Chills,Fatigue,Loss of appetite,Red eyes,Muscle pain,Headache,Nasal congestion
+Smallpox,Fever,Rash,Headache,Back pain,Fatigue,Chills,Muscle pain,Nausea,Loss of appetite,Sore throat,Swollen lymph nodes,Body ache
+Polio Virus Infection,Fever,Fatigue,Headache,Muscle weakness,Paralysis,Nausea,Vomiting,Back pain,Loss of appetite,Muscle spasms,Stiff neck,Respiratory difficulty
+Meningococcal Infection,Fever,Headache,Stiff neck,Nausea,Vomiting,Photophobia,Confusion,Fatigue,Loss of appetite,Muscle pain,Rash,Chills
+Meningitis (Viral),Fever,Headache,Stiff neck,Nausea,Vomiting,Photophobia,Fatigue,Loss of appetite,Muscle pain,Chills,Rash,Confusion
+Meningitis (Bacterial),Fever,Headache,Stiff neck,Nausea,Vomiting,Photophobia,Confusion,Fatigue,Rash,Seizures,Chills,Loss of appetite
+Mumps Complication Orchitis,Fever,Swollen glands,Testicular pain,Nausea,Vomiting,Headache,Fatigue,Loss of appetite,Muscle pain,Chills,Body ache,Swelling
+Kawasaki Disease,Fever,Rash,Swollen hands/feet,Red eyes,Strawberry tongue,Swollen lymph nodes,Headache,Joint pain,Fatigue,Irritability,Abdominal pain,Diarrhea
+Guillain-Barre Post Infection,Weakness,Numbness,Tingling,Fatigue,Paralysis,Muscle pain,Loss of reflexes,Difficulty walking,Shortness of breath,Pain,Swelling,Heart rate changes
+Toxic Shock Syndrome,Fever,Rash,Hypotension,Nausea,Vomiting,Diarrhea,Fatigue,Muscle pain,Confusion,Headache,Chills,Red eyes
+Rheumatic Heart Disease,Fever,Joint pain,Heart murmur,Fatigue,Shortness of breath,Chest pain,Swelling,Nausea,Weakness,Palpitations,Headache,Chills
+Endocarditis,Fever,Heart murmur,Fatigue,Shortness of breath,Chest pain,Swelling,Nausea,Weakness,Chills,Muscle pain,Confusion,Loss of appetite
+Pericarditis,Chest pain,Fever,Fatigue,Shortness of breath,Heart palpitations,Swelling,Nausea,Weakness,Chills,Muscle pain,Anxiety,Loss of appetite
+Myocarditis,Chest pain,Fever,Fatigue,Shortness of breath,Heart palpitations,Swelling,Nausea,Weakness,Chills,Muscle pain,Anxiety,Loss of appetite
+Arrhythmia,Palpitations,Fatigue,Dizziness,Shortness of breath,Chest pain,Weakness,Anxiety,Headache,Swelling,Nausea,Loss of appetite,Confusion
+Heart Failure,Shortness of breath,Fatigue,Swelling,Chest pain,Palpitations,Weight gain,Nausea,Weakness,Dizziness,Loss of appetite,Cough,Anxiety
+Cardiomyopathy,Shortness of breath,Fatigue,Chest pain,Palpitations,Swelling,Dizziness,Weakness,Nausea,Loss of appetite,Cough,Anxiety,Headache
+Peripheral Artery Disease,Leg pain,Fatigue,Numbness,Weakness,Cold feet,Slow healing,Muscle cramps,Swelling,Redness,Discoloration,Loss of appetite,Shortness of breath
+Deep Vein Thrombosis,Leg pain,Swelling,Redness,Warmth,Fatigue,Weakness,Shortness of breath,Chest pain,Discoloration,Nausea,Loss of appetite,Dizziness
+Pulmonary Embolism,Shortness of breath,Chest pain,Cough,Fatigue,Dizziness,Swelling,Nausea,Anxiety,Weakness,Loss of appetite,Palpitations,Leg pain
+Astigmatism,Blurred vision,Headache,Eyestrain,Fatigue,Double vision,Nausea,Dizziness,Eye discomfort,Squinting,Neck pain,Light sensitivity,Eye irritation
+Cataract,Blurred vision,Faded colors,Glare,Double vision,Night vision problems,Frequent prescription changes,Fatigue,Eye strain,Headache,Difficulty reading,Poor depth perception,Halo around lights
+Glaucoma,Eye pain,Blurred vision,Nausea,Vomiting,Headache,Loss of peripheral vision,Halo around lights,Fatigue,Red eyes,Vision loss,Eye redness,Difficulty seeing at night
+Macular Degeneration,Blurred central vision,Distorted vision,Faded colors,Difficulty reading,Headache,Fatigue,Difficulty recognizing faces,Vision loss,Nausea,Dizziness,Eye strain,Depression
+Retinitis Pigmentosa,Night blindness,Losing peripheral vision,Tunnel vision,Blurred vision,Fatigue,Headache,Difficulty seeing in dim light,Eye strain,Color vision issues,Vision loss,Dizziness,Depression
+Conjunctivitis,Red eyes,Itching,Discharge,Tearing,Swelling,Fatigue,Blurred vision,Headache,Light sensitivity,Eye pain,Nausea,Head congestion
+Dry Eye,Fatigue,Itchy eyes,Burning sensation,Redness,Blurred vision,Tearing,Eye strain,Headache,Sensitivity to light,Difficulty wearing contacts,Neck pain,Blurred vision
+Diabetic Retinopathy,Blurred vision,Floaters,Dark spots,Vision loss,Fatigue,Headache,Eye pain,Nausea,Swelling,Difficulty reading,Blurred colors,Dizziness
+Keratitis,Eye pain,Red eyes,Tearing,Blurred vision,Light sensitivity,Discharge,Fatigue,Headache,Swelling,Itching,Nausea,Blurred vision
+Uveitis,Eye pain,Red eyes,Blurred vision,Light sensitivity,Tearing,Fatigue,Headache,Swelling,Nausea,Floaters,Decreased vision,Blurred colors
+Amblyopia (Lazy Eye),Blurred vision,Poor depth perception,Fatigue,Headache,Double vision,Difficulty reading,Eye strain,Nausea,Dizziness,Light sensitivity,Eye discomfort,Difficulty recognizing faces
+Retinal Detachment,Floaters,Flashes of light,Shadow in vision,Blurred vision,Vision loss,Fatigue,Headache,Eye pain,Nausea,Red eyes,Difficulty seeing,Night blindness
+Color Blindness,Color confusion,Fatigue,Eye strain,Headache,Blurred vision,Difficulty distinguishing colors,Nausea,Dizziness,Light sensitivity,Eye discomfort,Vision loss,Neck pain
+Myopia (Nearsightedness),Blurred distance vision,Eye strain,Headache,Fatigue,Squinting,Double vision,Nausea,Dizziness,Difficulty seeing signs,Blurred vision,Neck pain,Light sensitivity
+Hyperopia (Farsightedness),Blurred near vision,Eye strain,Headache,Fatigue,Double vision,Squinting,Nausea,Dizziness,Difficulty reading,Blurred vision,Neck pain,Light sensitivity
+Presbyopia,Fatigue,Blurred near vision,Eye strain,Headache,Difficulty reading,Nausea,Dizziness,Light sensitivity,Double vision,Neck pain,Blurred vision,Eye discomfort
+Asthma (Exercise-Induced),Shortness of breath,Wheezing,Cough,Fatigue,Chest tightness,Dizziness,Headache,Anxiety,Muscle pain,Loss of appetite,Nausea,Chills
+Chronic Bronchitis,Cough,Fatigue,Shortness of breath,Chest discomfort,Headache,Body ache,Sore throat,Runny nose,Muscle pain,Chills,Loss of appetite,Fever
+Emphysema,Shortness of breath,Fatigue,Cough,Wheezing,Chest tightness,Weight loss,Muscle weakness,Dizziness,Headache,Anxiety,Swelling,Loss of appetite
+Pulmonary Fibrosis,Shortness of breath,Fatigue,Cough,Chest discomfort,Loss of appetite,Weight loss,Muscle pain,Weakness,Dizziness,Clubbing of fingers,Chest tightness,Anxiety
+Pneumothorax,Shortness of breath,Chest pain,Fatigue,Cough,Dizziness,Anxiety,Weakness,Nausea,Muscle pain,Headache,Loss of appetite,Swelling
+Pleural Effusion,Shortness of breath,Chest pain,Cough,Fatigue,Dizziness,Swelling,Weight loss,Muscle pain,Headache,Nausea,Anxiety,Weakness
+Pulmonary Hypertension,Shortness of breath,Fatigue,Chest pain,Dizziness,Swelling,Weakness,Palpitations,Nausea,Muscle pain,Anxiety,Loss of appetite,Headache
+Cystic Fibrosis,Cough,Fatigue,Shortness of breath,Salty skin,Weight loss,Lung infections,Muscle weakness,Dizziness,Headache,Nausea,Loss of appetite,Chest discomfort
+Bronchiectasis,Cough,Fatigue,Shortness of breath,Chest discomfort,Recurrent infections,Muscle pain,Weight loss,Dizziness,Nausea,Anxiety,Loss of appetite,Headache
+Acute Respiratory Distress Syndrome,Shortness of breath,Fatigue,Cough,Chest pain,Confusion,Dizziness,Weakness,Nausea,Muscle pain,Anxiety,Loss of appetite,Headache
+Sarcoidosis,Fatigue,Shortness of breath,Chest pain,Cough,Swollen lymph nodes,Muscle pain,Dizziness,Weight loss,Joint pain,Headache,Loss of appetite,Swelling
+Sleep Apnea,Fatigue,Loud snoring,Shortness of breath,Morning headache,Daytime sleepiness,Irritability,Memory problems,Dizziness,Muscle pain,Weakness,Anxiety,Weight gain
+Acute Sinusitis,Facial pain,Headache,Fever,Runny nose,Fatigue,Nasal congestion,Postnasal drip,Cough,Sore throat,Bad breath,Pressure around eyes,Chills
+Chronic Sinusitis,Facial pain,Headache,Fatigue,Runny nose,Nasal congestion,Postnasal drip,Cough,Sore throat,Bad breath,Pressure around eyes,Loss of appetite,Chills
+Tonsilloliths,Bad breath,Sore throat,Fever,Swollen tonsils,Headache,Fatigue,Red tonsils,White patches,Loss of appetite,Nausea,Muscle pain,Chills
+Peritonsillar Abscess,Sore throat,Fever,Difficulty swallowing,Headache,Fatigue,Swollen tonsils,Redness,White patches,Nausea,Muscle pain,Chills,Loss of appetite
+Pharyngitis,Sore throat,Fever,Headache,Fatigue,Redness,Swollen lymph nodes,Nausea,Loss of appetite,Muscle pain,Chills,Cough,Runny nose
+Laryngitis,Hoarseness,Fatigue,Sore throat,Cough,Loss of voice,Fever,Headache,Muscle pain,Swollen lymph nodes,Nausea,Chills,Weakness
+Vocal Cord Nodules,Hoarseness,Fatigue,Voice changes,Sore throat,Throat pain,Difficulty speaking,Headache,Neck pain,Muscle strain,Nausea,Weakness,Loss of appetite
+Vocal Cord Polyps,Hoarseness,Voice changes,Sore throat,Fatigue,Throat pain,Difficulty speaking,Headache,Neck pain,Muscle strain,Nausea,Weakness,Loss of appetite
+Epiglottitis,Fever,Sore throat,Difficulty swallowing,Fatigue,Hoarseness,Neck pain,Cough,Drooling,Chills,Nausea,Weakness,Shortness of breath
+Laryngeal Cancer,Hoarseness,Sore throat,Fatigue,Difficulty swallowing,Neck lump,Cough,Breathing difficulty,Weight loss,Nausea,Muscle pain,Anxiety,Loss of appetite
+Esophagitis,Heartburn,Fatigue,Chest pain,Difficulty swallowing,Nausea,Vomiting,Loss of appetite,Weight loss,Muscle pain,Weakness,Headache,Chills
+GERD,Heartburn,Regurgitation,Fatigue,Chest pain,Difficulty swallowing,Chronic cough,Hoarseness,Loss of appetite,Nausea,Weight loss,Muscle pain,Weakness
+Peptic Ulcer,Fatigue,Abdominal pain,Nausea,Bloating,Heartburn,Loss of appetite,Weight loss,Dark stools,Vomiting,Weakness,Headache,Chills
+Gastritis,Abdominal pain,Fatigue,Nausea,Bloating,Heartburn,Loss of appetite,Vomiting,Weight loss,Weakness,Headache,Chills,Diarrhea
+Irritable Bowel Syndrome,Abdominal pain,Bloating,Gas,Diarrhea,Constipation,Fatigue,Nausea,Headache,Anxiety,Depression,Loss of appetite,Muscle pain
+Lactose Intolerance,Bloating,Diarrhea,Gas,Abdominal pain,Nausea,Fatigue,Headache,Cramping,Weakness,Loss of appetite,Muscle pain,Anxiety
+Pancreatitis,Abdominal pain,Fever,Nausea,Vomiting,Fatigue,Loss of appetite,Weight loss,Back pain,Weakness,Chills,Muscle pain,Jaundice
+Hepatitis D,Fever,Fatigue,Nausea,Loss of appetite,Abdominal pain,Dark urine,Jaundice,Muscle pain,Joint pain,Headache,Weakness,Chills
+Hepatitis E,Fever,Fatigue,Nausea,Loss of appetite,Abdominal pain,Dark urine,Jaundice,Muscle pain,Joint pain,Headache,Weakness,Swelling
+Fatty Liver Disease,Fatigue,Abdominal discomfort,Weight loss,Loss of appetite,Nausea,Weakness,Swelling,Headache,Dizziness,Jaundice,Muscle pain,Joint pain
+Cirrhosis,Fatigue,Weakness,Loss of appetite,Nausea,Abdominal swelling,Itching,Jaundice,Bruising,Confusion,Bleeding,Fever,Muscle pain
+Liver Cancer,Abdominal pain,Weight loss,Fatigue,Loss of appetite,Nausea,Jaundice,Swelling,Bruising,Fever,Weakness,Muscle pain,Back pain
+Gallstones,Abdominal pain,Nausea,Vomiting,Fever,Jaundice,Indigestion,Bloating,Fatigue,Loss of appetite,Back pain,Weakness,Muscle pain
+Cholecystitis,Abdominal pain,Fever,Nausea,Vomiting,Bloating,Fatigue,Loss of appetite,Jaundice,Muscle pain,Weakness,Chills,Headache
+Pancreatic Cancer,Abdominal pain,Weight loss,Fatigue,Loss of appetite,Nausea,Back pain,Jaundice,Weakness,Muscle pain,Swelling,Headache,Diarrhea
+Diabetes Type 1,Increased thirst,Frequent urination,Fatigue,Weight loss,Nausea,Blurred vision,Hunger,Irritability,Numbness in hands/feet,Slow healing,Fever,Muscle pain
+Diabetes Type 2,Increased thirst,Frequent urination,Fatigue,Blurred vision,Weight gain,Nausea,Hunger,Irritability,Slow healing,Frequent infections,Numbness in hands/feet,Loss of appetite
+Hypoglycemia,Sweating,Trembling,Hunger,Fatigue,Dizziness,Confusion,Headache,Irritability,Palpitations,Blurred vision,Nausea,Weakness
+Hyperglycemia,Increased thirst,Frequent urination,Fatigue,Blurred vision,Headache,Nausea,Weight loss,Confusion,Dizziness,Weakness,Muscle pain,Loss of appetite
+Addison's Disease,Fatigue,Weight loss,Loss of appetite,Low blood pressure,Nausea,Vomiting,Dizziness,Muscle weakness,Hyperpigmentation,Abdominal pain,Joint pain,Weakness
+Cushing's Syndrome,Weight gain,Fatigue,Muscle weakness,High blood pressure,Round face,Abdominal fat,Headache,Anxiety,Depression,Thin skin,Bruising,Slow healing
+Hyperparathyroidism,Weakness,Fatigue,Bone pain,Abdominal pain,Nausea,Vomiting,Constipation,Headache,Confusion,Anxiety,Depression,Loss of appetite
+Hypoparathyroidism,Muscle cramps,Tingling,Spasms,Fatigue,Weakness,Headache,Anxiety,Seizures,Nausea,Abdominal pain,Loss of appetite,Depression
+Osteoporosis,Fractures,Fatigue,Back pain,Loss of height,Posture change,Weakness,Bone pain,Joint pain,Muscle pain,Swelling,Limited mobility,Depression
+Gout,Joint pain,Swelling,Redness,Stiffness,Fatigue,Heat over joints,Limited mobility,Inflammation,Tenderness,Nausea,Weakness,Chills
+Kidney Failure,Fatigue,Weakness,Swelling,Nausea,Vomiting,Loss of appetite,Shortness of breath,Confusion,Chest pain,Muscle cramps,Itching,Dizziness
+Nephrotic Syndrome,Swelling,Proteinuria,Fatigue,Loss of appetite,Weakness,Nausea,Vomiting,High blood pressure,Muscle cramps,Weight gain,Headache,Chills
+Urinary Incontinence,Frequent urination,Urgency,Leakage,Fatigue,Weakness,Discomfort,Nausea,Muscle pain,Back pain,Anxiety,Depression,Loss of appetite
+Prostate Cancer,Fatigue,Weakness,Painful urination,Blood in urine,Frequent urination,Back pain,Hip pain,Loss of appetite,Weight loss,Swelling,Muscle pain,Headache
+Benign Prostatic Hyperplasia,Frequent urination,Urgency,Weak stream,Nocturia,Fatigue,Back pain,Bladder discomfort,Incomplete emptying,Muscle pain,Loss of appetite,Anxiety,Weakness
+Testicular Cancer,Testicular lump,Pain,Fatigue,Weakness,Swelling,Back pain,Abdominal pain,Loss of appetite,Weight loss,Muscle pain,Nausea,Chills
+Erectile Dysfunction,Fatigue,Weakness,Loss of libido,Anxiety,Depression,Stress,Headache,Muscle weakness,Loss of appetite,Weight change,Palpitations,Dizziness
+Infertility,Fatigue,Weakness,Irregular periods,Hormonal imbalance,Anxiety,Depression,Loss of libido,Weight change,Muscle pain,Headache,Nausea,Swelling
+Polycystic Ovary Syndrome,Irregular periods,Weight gain,Acne,Hirsutism,Infertility,Fatigue,Hair thinning,Headache,Depression,Anxiety,Nausea,Loss of appetite
+Endometriosis,Pelvic pain,Heavy periods,Infertility,Fatigue,Bloating,Headache,Back pain,Muscle pain,Nausea,Anxiety,Depression,Loss of appetite
+Menopause,Hot flashes,Fatigue,Mood swings,Weight gain,Insomnia,Depression,Anxiety,Headache,Joint pain,Muscle pain,Loss of appetite,Weakness
+Premenstrual Syndrome,Bloating,Fatigue,Mood swings,Headache,Acne,Cramping,Breast tenderness,Weight gain,Anxiety,Depression,Loss of appetite,Muscle pain
+Pregnancy,Fatigue,Nausea,Vomiting,Back pain,Breast tenderness,Headache,Swelling,Heartburn,Constipation,Anxiety,Depression,Loss of appetite
+Eclampsia,High blood pressure,Seizures,Fatigue,Swelling,Headache,Nausea,Vomiting,Visual disturbances,Weakness,Anxiety,Confusion,Loss of appetite
+Preeclampsia,High blood pressure,Swelling,Fatigue,Headache,Nausea,Vomiting,Visual disturbances,Weight gain,Anxiety,Weakness,Loss of appetite,Muscle pain
+Gestational Diabetes,Increased thirst,Frequent urination,Fatigue,Blurred vision,Nausea,Weight gain,Headache,Weakness,Muscle pain,Loss of appetite,Anxiety,Swelling
+Miscarriage,Fatigue,Bleeding,Cramping,Abdominal pain,Nausea,Headache,Back pain,Loss of appetite,Weakness,Anxiety,Depression,Muscle pain
+Ovarian Cyst,Abdominal pain,Bloating,Fatigue,Back pain,Headache,Nausea,Weakness,Irregular periods,Loss of appetite,Muscle pain,Anxiety,Swelling
+Fibroid,Fatigue,Heavy periods,Abdominal pain,Bloating,Back pain,Headache,Weakness,Loss of appetite,Nausea,Swelling,Muscle pain,Anxiety
+Cervical Cancer,Abnormal bleeding,Fatigue,Back pain,Weight loss,Loss of appetite,Pelvic pain,Weakness,Nausea,Headache,Muscle pain,Swelling,Anxiety
+Vaginitis,Itching,Foul odor,Discharge,Pain,Fatigue,Swelling,Nausea,Headache,Muscle pain,Loss of appetite,Anxiety,Weakness
+Pyelonephritis,Fever,Back pain,Nausea,Vomiting,Fatigue,Chills,Loss of appetite,Weakness,Muscle pain,Abdominal pain,Urinary urgency,Headache
+Cystitis,Fever,Burning urination,Fatigue,Back pain,Chills,Nausea,Weakness,Loss of appetite,Muscle pain,Frequent urination,Abdominal discomfort,Headache
+Glomerulonephritis,Fatigue,Swelling,Blood in urine,Urinary changes,Loss of appetite,Weakness,Muscle pain,High blood pressure,Nausea,Headache,Chills,Back pain
+Nephrolithiasis,Severe flank pain,Nausea,Vomiting,Fatigue,Bloody urine,Weakness,Chills,Abdominal pain,Back pain,Loss of appetite,Muscle pain,Swelling
+Hypospadias,Fatigue,Urinary issues,Pain,Infections,Weakness,Loss of appetite,Swelling,Muscle pain,Back pain,Nausea,Headache,Anxiety
+Epispadias,Fatigue,Urinary issues,Pain,Infections,Weakness,Loss of appetite,Swelling,Muscle pain,Back pain,Nausea,Headache,Anxiety
+Testicular Torsion,Severe testicular pain,Nausea,Vomiting,Fatigue,Swelling,Weakness,Abdominal pain,Back pain,Loss of appetite,Muscle pain,Chills,Anxiety
+Hydrocele,Swelling,Painless lump,Fatigue,Discomfort,Weakness,Loss of appetite,Muscle pain,Back pain,Anxiety,Chills,Nausea,Headache
+Varicocele,Swelling,Fatigue,Discomfort,Weakness,Back pain,Loss of appetite,Muscle pain,Nausea,Anxiety,Chills,Headache,Pain during standing
+Prostatitis,Fever,Painful urination,Fatigue,Weakness,Back pain,Abdominal pain,Nausea,Loss of appetite,Muscle pain,Swelling,Chills,Anxiety
+Prostate Hyperplasia,Frequent urination,Urgency,Weak stream,Nocturia,Fatigue,Back pain,Bladder discomfort,Incomplete emptying,Muscle pain,Loss of appetite,Anxiety,Weakness
+Epididymitis,Scrotal pain,Swelling,Fever,Fatigue,Nausea,Back pain,Weakness,Loss of appetite,Muscle pain,Chills,Redness,Painful urination
+Orchitis,Testicular pain,Swelling,Fever,Fatigue,Nausea,Weakness,Loss of appetite,Back pain,Muscle pain,Chills,Redness,Painful urination
+Pelvic Inflammatory Disease,Abdominal pain,Fever,Fatigue,Discharge,Nausea,Back pain,Weakness,Loss of appetite,Muscle pain,Chills,Headache,Anxiety
+Endometrial Cancer,Abnormal bleeding,Fatigue,Back pain,Abdominal pain,Weight loss,Loss of appetite,Nausea,Weakness,Muscle pain,Swelling,Headache,Anxiety
+Ovarian Cancer,Abdominal pain,Bloating,Fatigue,Back pain,Weight loss,Loss of appetite,Nausea,Weakness,Muscle pain,Swelling,Headache,Anxiety
+Breast Cancer,Lump in breast,Fatigue,Pain,Swelling,Weight loss,Loss of appetite,Nipple discharge,Back pain,Muscle pain,Weakness,Nausea,Anxiety
+Mastitis,Breast pain,Redness,Swelling,Fever,Fatigue,Nipple discharge,Nausea,Weakness,Loss of appetite,Muscle pain,Chills,Headache
+Fibrocystic Breast Changes,Lump in breast,Pain,Bloating,Fatigue,Swelling,Weakness,Loss of appetite,Muscle pain,Back pain,Headache,Nipple discharge,Anxiety
+Thyroid Cancer,Lump in neck,Fatigue,Hoarseness,Neck pain,Swelling,Weight loss,Loss of appetite,Nausea,Weakness,Muscle pain,Headache,Anxiety
+Thyroiditis,Fatigue,Neck pain,Swelling,Hoarseness,Loss of appetite,Nausea,Weakness,Muscle pain,Headache,Chills,Weight change,Anxiety
+Graves' Disease,Weight loss,Heat intolerance,Anxiety,Fatigue,Palpitations,Tremors,Insomnia,Sweating,Muscle weakness,Hair thinning,Headache,Loss of appetite
+Hashimoto's Thyroiditis,Fatigue,Weight gain,Cold intolerance,Depression,Constipation,Dry skin,Brittle nails,Hair loss,Swelling,Hoarseness,Slow heart rate,Memory problems
+Hypopituitarism,Fatigue,Weakness,Loss of appetite,Weight loss,Nausea,Muscle pain,Depression,Anxiety,Headache,Hair loss,Low blood pressure,Cold intolerance
+Acromegaly,Enlarged hands/feet,Fatigue,Headache,Joint pain,Swelling,Muscle weakness,Vision problems,Sleep apnea,Weight gain,Back pain,Loss of appetite,Anxiety
+Gigantism,Excessive growth,Fatigue,Joint pain,Muscle weakness,Headache,Swelling,Vision problems,Back pain,Loss of appetite,Weakness,Anxiety,Weight gain
+Addisonian Crisis,Severe fatigue,Weakness,Low blood pressure,Nausea,Vomiting,Abdominal pain,Confusion,Loss of consciousness,Muscle pain,Chills,Headache,Loss of appetite
+Pheochromocytoma,High blood pressure,Palpitations,Headache,Sweating,Anxiety,Tremors,Fatigue,Weight loss,Nausea,Weakness,Chest pain,Loss of appetite
+Hyperaldosteronism,High blood pressure,Fatigue,Weakness,Muscle cramps,Nausea,Headache,Swelling,Loss of appetite,Palpitations,Dizziness,Anxiety,Weight gain
+Hypoaldosteronism,Fatigue,Weakness,Low blood pressure,Nausea,Muscle cramps,Loss of appetite,Dizziness,Headache,Swelling,Anxiety,Weight loss,Confusion
+Cushing's Disease,Fatigue,Weight gain,Muscle weakness,High blood pressure,Round face,Abdominal fat,Depression,Anxiety,Thin skin,Bruising,Slow healing,Headache
+Pituitary Tumor,Fatigue,Headache,Vision problems,Weakness,Nausea,Weight changes,Loss of appetite,Anxiety,Depression,Muscle pain,Swelling,Back pain
+Craniopharyngioma,Fatigue,Headache,Vision problems,Weakness,Nausea,Weight changes,Loss of appetite,Depression,Anxiety,Muscle pain,Swelling,Memory loss
+Diabetes Insipidus,Excessive thirst,Frequent urination,Fatigue,Weakness,Dizziness,Headache,Nausea,Loss of appetite,Muscle cramps,Weight loss,Swelling,Confusion
+SIADH,Fatigue,Weakness,Nausea,Headache,Confusion,Muscle cramps,Seizures,Dizziness,Swelling,Loss of appetite,Anxiety,Weight gain
+Thyroid Nodule,Lump in neck,Fatigue,Swelling,Hoarseness,Loss of appetite,Weight change,Headache,Neck pain,Weakness,Muscle pain,Nausea,Anxiety
+Osteopenia,Weakness,Fatigue,Back pain,Bone pain,Limited mobility,Joint pain,Muscle pain,Swelling,Fractures,Loss of appetite,Headache,Anxiety
+Paget's Disease of Bone,Bone pain,Deformity,Fatigue,Swelling,Weakness,Fractures,Headache,Muscle pain,Loss of appetite,Joint pain,Weight change,Anxiety
+Osteogenesis Imperfecta,Fragile bones,Fatigue,Weakness,Deformities,Joint pain,Muscle pain,Swelling,Fractures,Back pain,Headache,Loss of appetite,Anxiety
+Rickets,Bone pain,Weakness,Fatigue,Delayed growth,Muscle pain,Swelling,Deformities,Joint pain,Headache,Loss of appetite,Weight change,Anxiety
+Scoliosis,Back pain,Fatigue,Posture change,Limited mobility,Muscle pain,Swelling,Weakness,Headache,Loss of appetite,Anxiety,Deformity,Weight change
+Kyphosis,Back pain,Fatigue,Posture change,Limited mobility,Muscle pain,Weakness,Swelling,Headache,Loss of appetite,Anxiety,Deformity,Weight change
+Lordosis,Back pain,Fatigue,Posture change,Limited mobility,Muscle pain,Weakness,Swelling,Headache,Loss of appetite,Anxiety,Deformity,Weight change
+Herniated Disc,Back pain,Leg pain,Numbness,Tingling,Fatigue,Weakness,Muscle cramps,Swelling,Loss of appetite,Headache,Anxiety,Limited mobility
+Spinal Stenosis,Back pain,Leg pain,Fatigue,Numbness,Weakness,Tingling,Muscle cramps,Limited mobility,Swelling,Loss of appetite,Headache,Anxiety
+Sciatica,Back pain,Leg pain,Numbness,Tingling,Fatigue,Weakness,Muscle cramps,Limited mobility,Swelling,Loss of appetite,Headache,Anxiety
+Carpal Tunnel Syndrome,Wrist pain,Numbness,Tingling,Fatigue,Weakness,Muscle pain,Swelling,Loss of grip,Headache,Loss of appetite,Anxiety,Neck pain
+Tendonitis,Pain,Swelling,Fatigue,Weakness,Limited mobility,Muscle pain,Loss of appetite,Headache,Anxiety,Redness,Heat,Fever
+Bursitis,Pain,Swelling,Fatigue,Weakness,Limited mobility,Muscle pain,Loss of appetite,Headache,Anxiety,Redness,Heat,Fever
+Psoriatic Arthritis,Joint pain,Swelling,Redness,Stiffness,Fatigue,Muscle pain,Limited mobility,Skin lesions,Nail changes,Weakness,Headache,Loss of appetite
+Ankylosing Spondylitis,Back pain,Stiffness,Fatigue,Limited mobility,Joint pain,Muscle pain,Swelling,Weakness,Headache,Loss of appetite,Anxiety,Weight loss
+Sjogren's Syndrome,Dry eyes,Dry mouth,Fatigue,Joint pain,Swelling,Weakness,Muscle pain,Loss of appetite,Headache,Anxiety,Depression,Numbness
+Huntington's Disease,Movement disorders,Fatigue,Muscle weakness,Memory loss,Depression,Anxiety,Coordination problems,Weight loss,Loss of appetite,Headache,Nausea,Sleep disturbances
+Amyotrophic Lateral Sclerosis,Muscle weakness,Fatigue,Twitching,Spasticity,Difficulty speaking,Swallowing problems,Respiratory issues,Loss of appetite,Muscle cramps,Anxiety,Depression,Weight loss
+Migraine,Headache,Nausea,Vomiting,Light sensitivity,Sound sensitivity,Dizziness,Fatigue,Neck pain,Blurred vision,Anxiety,Irritability,Muscle pain
+Stroke,Fatigue,Weakness,Numbness,Tingling,Confusion,Headache,Dizziness,Vision problems,Loss of balance,Speech difficulty,Muscle pain,Anxiety
+Transient Ischemic Attack,Fatigue,Weakness,Numbness,Confusion,Headache,Dizziness,Vision problems,Loss of balance,Speech difficulty,Muscle weakness,Anxiety,Memory problems
+Brain Tumor,Headache,Nausea,Vomiting,Vision problems,Weakness,Fatigue,Seizures,Confusion,Memory loss,Anxiety,Depression,Loss of appetite
+Meningitis,Fever,Headache,Stiff neck,Nausea,Vomiting,Photophobia,Confusion,Fatigue,Muscle pain,Chills,Rash,Loss of appetite
+Encephalitis,Fever,Headache,Confusion,Seizures,Fatigue,Nausea,Vomiting,Weakness,Muscle pain,Anxiety,Loss of appetite,Chills
+Peripheral Neuropathy,Numbness,Tingling,Weakness,Fatigue,Pain,Muscle cramps,Burning sensation,Loss of balance,Loss of appetite,Headache,Anxiety,Swelling
+Myasthenia Gravis,Muscle weakness,Fatigue,Drooping eyelids,Double vision,Difficulty speaking,Swallowing problems,Weakness in limbs,Headache,Anxiety,Loss of appetite,Muscle cramps,Depression
+Polymyositis,Muscle weakness,Fatigue,Pain,Muscle atrophy,Swelling,Loss of appetite,Anxiety,Depression,Joint pain,Headache,Weakness,Limited mobility
+Dermatomyositis,Muscle weakness,Fatigue,Rash,Muscle pain,Swelling,Loss of appetite,Headache,Weakness,Anxiety,Depression,Joint pain,Limited mobility
+Chronic Fatigue Syndrome,Extreme fatigue,Muscle pain,Joint pain,Headache,Sleep disturbances,Memory problems,Anxiety,Depression,Sore throat,Swollen lymph nodes,Dizziness,Loss of appetite
+Scleroderma,Fatigue,Joint pain,Swelling,Thickened skin,Raynaud's phenomenon,Muscle weakness,Loss of appetite,Anxiety,Depression,Headache,Swelling of fingers,Chest pain
+Vasculitis,Fatigue,Fever,Weight loss,Joint pain,Muscle pain,Rash,Loss of appetite,Headache,Swelling,Weakness,Anxiety,Depression
+Gastroenteritis,Diarrhea,Nausea,Vomiting,Fever,Abdominal pain,Fatigue,Weakness,Headache,Muscle pain,Loss of appetite,Chills,Dehydration
+Toxoplasmosis,Fever,Swollen lymph nodes,Muscle aches,Fatigue,Headache,Sore throat,Nausea,Vomiting,Vision problems,Loss of appetite,Chills,Body ache
+Chikungunya,Fever,Severe joint pain,Rash,Headache,Nausea,Muscle pain,Fatigue,Swelling,Red eyes,Loss of appetite,Chills,Weakness
+Leptospirosis,Fever,Chills,Muscle pain,Headache,Nausea,Vomiting,Red eyes,Fatigue,Jaundice,Abdominal pain,Loss of appetite,Weakness
+Typhoid Fever,Fever,Headache,Abdominal pain,Diarrhea,Constipation,Nausea,Vomiting,Weakness,Fatigue,Lethargy,Loss of appetite,Chills
+Q Fever,Fever,Headache,Chills,Fatigue,Muscle aches,Sore throat,Nausea,Vomiting,Cough,Loss of appetite,Chest pain,Weakness
+Brucellosis,Fever,Night sweats,Joint pain,Fatigue,Muscle pain,Weakness,Headache,Loss of appetite,Chills,Nausea,Back pain,Sweating
+West Nile Virus,Fever,Headache,Fatigue,Muscle pain,Rash,Nausea,Vomiting,Chills,Joint pain,Weakness,Loss of appetite,Confusion
+Yellow Fever,Fever,Chills,Headache,Muscle pain,Nausea,Vomiting,Weakness,Jaundice,Lethargy,Back pain,Loss of appetite,Red eyes
+Rift Valley Fever,Fever,Muscle pain,Headache,Nausea,Vomiting,Chills,Weakness,Fatigue,Loss of appetite,Joint pain,Red eyes,Rash
+Japanese Encephalitis,Fever,Headache,Nausea,Vomiting,Seizures,Confusion,Weakness,Fatigue,Neck stiffness,Lethargy,Loss of appetite,Chills
+Dengue Hemorrhagic Fever,Fever,Headache,Muscle pain,Joint pain,Rash,Nausea,Vomiting,Bleeding gums,Chills,Fatigue,Loss of appetite,Weakness
+Hemorrhagic Fever with Renal Syndrome,Fever,Chills,Muscle pain,Headache,Nausea,Vomiting,Abdominal pain,Fatigue,Weakness,Back pain,Loss of appetite,Swelling
+Anthrax,Fever,Chills,Headache,Muscle pain,Weakness,Nausea,Vomiting,Chest discomfort,Shortness of breath,Loss of appetite,Swelling,Skin lesions
+Plague,Fever,Chills,Headache,Weakness,Muscle pain,Nausea,Vomiting,Swollen lymph nodes,Cough,Shortness of breath,Loss of appetite,Confusion
+Botulism,Weakness,Dizziness,Blurred vision,Double vision,Drooping eyelids,Difficulty swallowing,Nausea,Vomiting,Fatigue,Constipation,Abdominal pain,Muscle cramps
+Rabies,Fever,Headache,Anxiety,Confusion,Excess salivation,Hallucinations,Hydrophobia,Difficulty swallowing,Weakness,Fatigue,Nausea,Agitation
+Histoplasmosis,Fever,Chills,Headache,Muscle aches,Weakness,Fatigue,Cough,Chest pain,Shortness of breath,Nausea,Loss of appetite,Joint pain
+Coccidioidomycosis,Fever,Chills,Fatigue,Muscle aches,Joint pain,Cough,Chest pain,Shortness of breath,Headache,Nausea,Loss of appetite,Rash
+Blastomycosis,Fever,Chills,Muscle aches,Joint pain,Fatigue,Cough,Chest pain,Shortness of breath,Headache,Nausea,Loss of appetite,Rash
+Paracoccidioidomycosis,Fever,Chills,Muscle aches,Joint pain,Fatigue,Cough,Chest pain,Headache,Nausea,Loss of appetite,Rash,Weakness
+Cryptococcosis,Fever,Headache,Chills,Fatigue,Weakness,Confusion,Nausea,Vomiting,Shortness of breath,Cough,Loss of appetite,Muscle pain
+Aspergillosis,Fever,Chills,Cough,Chest pain,Shortness of breath,Weakness,Fatigue,Headache,Nausea,Loss of appetite,Muscle pain,Rash
+Pneumocystis Pneumonia,Fever,Chills,Cough,Shortness of breath,Chest pain,Fatigue,Weakness,Muscle pain,Headache,Nausea,Loss of appetite,Confusion
+Legionnaires’ Disease,Fever,Chills,Cough,Shortness of breath,Chest pain,Headache,Muscle pain,Nausea,Vomiting,Weakness,Fatigue,Loss of appetite
+Tuberculosis,Fever,Chills,Cough,Chest pain,Weight loss,Night sweats,Fatigue,Weakness,Nausea,Loss of appetite,Muscle pain,Shortness of breath
+Leprosy,Skin lesions,Numbness,Muscle weakness,Joint pain,Fatigue,Loss of sensation,Deformities,Ulcers,Eye problems,Weakness,Loss of appetite,Swelling
+Tetanus,Muscle stiffness,Jaw cramp,Muscle spasms,Fever,Sweating,High blood pressure,Rapid heartbeat,Headache,Irritability,Difficulty swallowing,Seizures,Paralysis
+Poliomyelitis,Fever,Fatigue,Headache,Muscle weakness,Muscle pain,Paralysis,Nausea,Vomiting,Loss of reflexes,Back pain,Deformities,Difficulty breathing
+Yellow Fever (Severe),Fever,Headache,Muscle pain,Joint pain,Nausea,Vomiting,Chills,Weakness,Jaundice,Bleeding gums,Loss of appetite,Confusion
+Smallpox,Fever,Rash,Headache,Back pain,Fatigue,Chills,Muscle pain,Nausea,Loss of appetite,Sore throat,Swollen lymph nodes,Body ache
+Chagas Disease,Fever,Swelling,Fatigue,Weakness,Palpitations,Heart enlargement,Arrhythmia,Abdominal pain,Nausea,Loss of appetite,Chills,Muscle pain
+Leishmaniasis,Fever,Weight loss,Fatigue,Weakness,Swelling,Anemia,Nausea,Loss of appetite,Enlarged spleen,Muscle pain,Chills,Rash
+Schistosomiasis,Fever,Chills,Abdominal pain,Diarrhea,Fatigue,Weakness,Muscle pain,Anemia,Nausea,Liver enlargement,Loss of appetite,Rash
+Filariasis,Swelling,Weakness,Fatigue,Muscle pain,Joint pain,Chills,Headache,Nausea,Loss of appetite,Rash,Enlarged lymph nodes,Itching
+Onchocerciasis,Itchy skin,Rash,Swelling,Eye lesions,Vision loss,Fatigue,Weakness,Muscle pain,Joint pain,Headache,Nausea,Loss of appetite
+Guinea Worm Disease,Blisters,Fever,Swelling,Weakness,Muscle pain,Joint pain,Chills,Headache,Nausea,Loss of appetite,Fatigue,Itching
+Toxocariasis,Fever,Abdominal pain,Cough,Headache,Fatigue,Weakness,Rash,Swelling,Muscle pain,Nausea,Loss of appetite,Chills
+Echinococcosis,Fatigue,Weakness,Abdominal pain,Liver enlargement,Nausea,Loss of appetite,Chills,Muscle pain,Joint pain,Fever,Headache,Swelling
+Trichinosis,Fever,Muscle pain,Swelling,Weakness,Headache,Chills,Nausea,Vomiting,Diarrhea,Fatigue,Loss of appetite,Joint pain
+Fascioliasis,Fever,Abdominal pain,Diarrhea,Nausea,Headache,Fatigue,Weakness,Loss of appetite,Chills,Muscle pain,Swelling,Jaundice
+Malaria (Severe),Fever,Chills,Headache,Nausea,Vomiting,Muscle pain,Fatigue,Weakness,Anemia,Loss of appetite,Sweating,Confusion
+Babesiosis,Fever,Chills,Fatigue,Weakness,Muscle pain,Headache,Nausea,Vomiting,Loss of appetite,Anemia,Joint pain,Jaundice
+Trypanosomiasis (African Sleeping Sickness),Fever,Headache,Fatigue,Weakness,Muscle pain,Swelling,Confusion,Sleep disturbances,Nausea,Loss of appetite,Chills,Joint pain
+Trypanosomiasis (Chagas),Fever,Swelling,Muscle pain,Weakness,Palpitations,Heart enlargement,Arrhythmia,Nausea,Loss of appetite,Chills,Headache,Joint pain
+Leishmania (Visceral),Fever,Weight loss,Fatigue,Weakness,Swelling,Anemia,Nausea,Loss of appetite,Liver enlargement,Spleen enlargement,Muscle pain,Chills
+Lymphatic Filariasis,Swelling,Weakness,Fatigue,Muscle pain,Joint pain,Chills,Headache,Nausea,Loss of appetite,Rash,Enlarged lymph nodes,Itching
+Loiasis,Fever,Swelling,Eye pain,Weakness,Fatigue,Muscle pain,Headache,Joint pain,Nausea,Loss of appetite,Chills,Rash
+Onchocerca volvulus,Itchy skin,Rash,Swelling,Eye lesions,Vision loss,Fatigue,Weakness,Muscle pain,Joint pain,Headache,Nausea,Loss of appetite
+Schistosoma mansoni,Fever,Chills,Abdominal pain,Diarrhea,Fatigue,Weakness,Muscle pain,Anemia,Nausea,Liver enlargement,Loss of appetite,Rash
+Echinococcus granulosus,Fatigue,Weakness,Abdominal pain,Liver enlargement,Nausea,Loss of appetite,Chills,Muscle pain,Joint pain,Fever,Headache,Swelling
+Trichinella spiralis,Fever,Muscle pain,Swelling,Weakness,Headache,Chills,Nausea,Vomiting,Diarrhea,Fatigue,Loss of appetite,Joint pain
